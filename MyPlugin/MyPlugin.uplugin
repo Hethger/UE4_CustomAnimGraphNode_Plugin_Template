@@ -1,0 +1,38 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "MyPlugin",
+	"Description" : "This is a basic template for a Plugin that incorporates a Custom AnimGraph Node",
+	"Category" : "Animation",
+	"CreatedBy" : "Theodor Luis Martin Bruna(Hethger)",
+	"CreatedByURL" : "https://forums.unrealengine.com/member.php?133197-Hethger",
+	"DocsURL" : "",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+	"CanContainContent" : false,
+	"IsBetaVersion" : false,
+	"Installed" : true,
+	"RequiresBuildPlatform" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "MyPlugin",
+			"Type" : "Runtime",
+			"LoadingPhase" : "Default",
+			"BlacklistPlatforms" :
+			[
+				"IOS"
+			]
+		},
+		{
+			"Name" : "MyPluginEditor",
+			"Type" : "Editor",
+			"LoadingPhase" : "Default",
+			"BlacklistPlatforms" :
+			[
+				"IOS"
+			]
+		}
+	]
+}
