@@ -19,7 +19,7 @@
 		{
 			"Name" : "MyPlugin",
 			"Type" : "Runtime",
-			"LoadingPhase" : "Default",
+			"LoadingPhase" : "PreDefault",
 			"BlacklistPlatforms" :
 			[
 				"IOS"
@@ -28,7 +28,7 @@
 		{
 			"Name" : "MyPluginEditor",
 			"Type" : "Editor",
-			"LoadingPhase" : "Default",
+			"LoadingPhase" : "PreDefault",
 			"BlacklistPlatforms" :
 			[
 				"IOS"
